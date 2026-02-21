@@ -13,7 +13,7 @@ file_key = "bike_sales.csv"   # exact file name in S3
 # ----------------------------
 sf_user = "vi"
 sf_password = "Vignesh"        # <-- your Snowflake password
-sf_account = "SGIVFZX-XFB94552"               # <-- account identifier only
+sf_account = "SGI"               # <-- account identifier only
 sf_warehouse = "MY_WH"
 sf_role = "ACCOUNTADMIN"
 sf_database = "MY_DATA_PIPELINE"
