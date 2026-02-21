@@ -11,9 +11,9 @@ file_key = "bike_sales.csv"   # exact file name in S3
 # ----------------------------
 # Snowflake Configuration
 # ----------------------------
-sf_user = "vignesh1784"
-sf_password = "Vignesh@1984!!"        # <-- your Snowflake password
-sf_account = "SGIVFZX-XFB94552"               # Snowflake account identifier only
+sf_user = "8888"
+sf_password = "Vignesh"        # <-- your Snowflake password
+sf_account = "SGIVFZX"               # Snowflake account identifier only
 sf_warehouse = "MY_WH"               # exact name of your warehouse in Snowflake
 sf_role = "ACCOUNTADMIN"
 sf_database = "MY_DATA_PIPELINE"
