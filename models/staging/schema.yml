@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw
+    database: MY_DATA_PIPELINE
+    schema: RAW
+    tables:
+      - name: customers
+
+models:
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
